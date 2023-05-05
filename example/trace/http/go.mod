@@ -3,12 +3,12 @@ module github.com/GoogleCloudPlatform/opentelemetry-operations-go/example/trace/
 go 1.20
 
 require (
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.13.1
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator v0.37.1
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.40.0
-	go.opentelemetry.io/otel v1.14.0
-	go.opentelemetry.io/otel/sdk v1.14.0
-	go.opentelemetry.io/otel/trace v1.14.0
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.13.0
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator v0.37.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.41.0-rc.2
+	go.opentelemetry.io/otel v1.15.0-rc.2
+	go.opentelemetry.io/otel/sdk v1.15.0-rc.2
+	go.opentelemetry.io/otel/trace v1.15.0-rc.2
 )
 
 require (
@@ -25,12 +25,12 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.2.1 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	go.opentelemetry.io/otel/metric v0.37.0 // indirect
+	go.opentelemetry.io/otel/metric v1.15.0-rc.2 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	google.golang.org/api v0.108.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
